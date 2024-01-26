@@ -50,8 +50,6 @@ public class App {
         // leer info de web (atributos y campeones del set (y inicializar segun el set))
         inicializa.atributos_set(set_actual);
         inicializa.campeones_con_atributos_set(set_actual);
-
-        jugadores players = new jugadores();
         new GUI();
         // ya usare los otros jugadores mas tarde
 
